@@ -1,7 +1,7 @@
 body {
     text-align:center;
     background-color: white;
-    border: solid 4px black;
+    border: solid 4px red;
     margin: 4px;
 }
 
@@ -24,10 +24,8 @@ nav {
     margin: 4px;
 }
 
-nav#navigationB {
-    height: 440px;
-    min-height: 440px;
-    max-height: 440px;
+#navigationB {
+    padding: 210px 0px;
 }
 
 section {
@@ -36,12 +34,12 @@ section {
     margin: 3px;
 }
 
-section#sectionA {
+#sectionA {
     float: left;
     width: 32%;
 }
 
-section#sectionB {
+#sectionB {
     float: right;
     width: 66%;
 }
@@ -58,7 +56,7 @@ p {
     margin: 5px;
 }
 
-p#paragraphA {
+#paragraphA {
     float: left;
     height: 220px;
     width: 48.5%;
@@ -70,13 +68,13 @@ aside {
     margin: 5px;
 }
 
-aside#asideA {
+#asideA {
     float: right;
     height: 220px;
     width: 48.5%;
 }
 
-footer#lastFooter {
+#lastFooter {
     clear: both;
 }
 
