@@ -4,104 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <title>title</title>
-    <style>
-        body {
-            text-align:center;
-            border:solid 3px black;
-            background-color:white;
-        }
-
-        header {
-            text-align:center;
-            border:solid 2px black;
-            background-color:lightblue;
-            margin: 4px;
-        }
-
-        footer {
-            text-align:center;
-            border:solid 2px black;
-            background-color:lightseagreen;
-            margin: 4px;
-            clear: both;
-        }
-
-        nav {
-            text-align:center;
-            border:solid 1px black;
-            background-color:white;
-            margin: 3px;
-        }
-
-        nav#navigationB {
-            height: 450px;
-        }
-
-        section {
-            text-align:center;
-            border:solid 2px black;
-            background-color:lightgoldenrodyellow;
-            margin: 3px;
-        }
-
-        section#sectionA {
-            float:left;
-            height: 530px;
-            width: 402px;
-        }
-
-        section#sectionB {
-            float:right;
-            height: 530px;
-            width: 905px;
-        }
-
-        article {
-            text-align:center;
-            border:solid 1px;
-            background-color:lightcyan;
-            margin: 5px;
-        }
-
-        p {
-            text-align:center;
-            border:solid 1px black;
-            background-color:lightgreen;
-            margin: 5px;
-        }
-
-        p#paragraphA {
-            float: right;
-            height: 220px;
-            width: 410px;
-        }
-
-        aside {
-            text-align:center;
-            border:solid 1px black;
-            background-color:white;
-            margin: 6px;
-        }
-
-        aside#asideA {
-            float: left;
-            height: 220px;
-            width: 450px;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
 </head>
 
 <body>body
-
     <header>header
         <nav id = "navigationA">nav</nav>
     </header>
 
     <section id = "sectionA">section
         <header>header</header>
-            <div align = "center:justify">
-                <nav id = "navigationB">nav</nav>
-            </div>
+            <nav id = "navigationB"><span class = "textNav">nav</span></nav>
         <footer>footer</footer>
     </section>
 
@@ -110,15 +23,15 @@
 
         <article>article
             <header>header</header>
-            <p>p</p>
-            <p>p</p>
+                <p>p</p>
+                <p>p</p>
             <footer>footer</footer>
         </article>
 
         <article>article
             <header>header</header>
-            <p id = "paragraphA">p</p>
-            <aside id = "asideA">aside</aside>
+            <p id = "paragraphA" ><span class="textNav">p</span></p>
+            <aside id = "asideA" ><span class="textNav">aside</span></aside>
             <footer>footer</footer>
         </article>
 
